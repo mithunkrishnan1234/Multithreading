@@ -1,6 +1,7 @@
 import java.sql.SQLOutput;
 
 public class MultithreadThing implements Runnable{
+    //public class MultithreadThing extends Thread
     private int threadnumber;
 
     public MultithreadThing(int threadnumber) {
